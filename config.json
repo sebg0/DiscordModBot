@@ -1,0 +1,5 @@
+{
+  "token": "token goes here",
+  "prefix": "!",
+  "mongopath": "mongo path goes here (should start with -> mongodb+srv://)"
+}
