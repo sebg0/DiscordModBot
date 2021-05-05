@@ -55,7 +55,7 @@ exports.run = async (client, message, args) => {
   }
 
   var pundate = new Date()
-  month = pundate.getMonth() + 1;
+  var month = pundate.getMonth() + 1;
   pundate = month + "/" + pundate.getDate() + "/" + pundate.getFullYear() + " " + pundate.getHours() + ":" + pundate.getMinutes() + "(UTC+0)";
 
   await new infractionsSchema({
